@@ -1,5 +1,6 @@
 {
-	"presets": [["@babel/preset-env", { "modules": false }]],
+	"presets": [["@babel/preset-env", { "modules": false, "loose": true }]],
+	"plugins": ["babel-plugin-native-error-extend"],
 	"env": {
 		"test": {
 			"presets": [
@@ -7,12 +8,14 @@
 					"@babel/preset-env",
 					{
 						"modules": false,
+						"loose": true,
 						"useBuiltIns": "usage",
 						"corejs": 2
 					}
 				]
 			],
 			"plugins": [
+				"babel-plugin-transform-globalthis",
 				[
 					"@babel/plugin-transform-runtime",
 					{

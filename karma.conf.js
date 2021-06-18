@@ -107,7 +107,8 @@ module.exports = function (baseConfig) {
 				}),
 				commonjs(),
 				babel({
-					include: 'node_modules/{has-flag,supports-color}/**',
+					include:
+						'node_modules/{has-flag,supports-color,set-immediate-shim}/**',
 					babelHelpers: 'runtime',
 					babelrc: false,
 					configFile: path.resolve(__dirname, '.babelrc')

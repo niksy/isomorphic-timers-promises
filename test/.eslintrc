@@ -1,4 +1,7 @@
 {
+	"parserOptions": {
+		"ecmaVersion": 2021
+	},
 	"extends": ["eslint-config-niksy/tests"],
 	"ignorePatterns": ["/**/fixtures"]
 }
