@@ -1,0 +1,4 @@
+{
+	"extends": ["eslint-config-niksy/tests"],
+	"ignorePatterns": ["/**/fixtures"]
+}

@@ -1,0 +1,27 @@
+{
+	"root": true,
+	"extends": [
+		"eslint-config-niksy",
+		"eslint-config-niksy/next",
+		"eslint-config-niksy/browser",
+		"eslint-config-prettier"
+	],
+	"plugins": ["eslint-plugin-prettier"],
+	"rules": {
+		"prettier/prettier": 1
+	},
+	"overrides": [
+		{
+			"files": ["karma.conf.js", "rollup.config.js"],
+			"env": {
+				"node": true,
+				"es6": true
+			},
+			"plugins": ["eslint-plugin-unicorn"],
+			"rules": {
+				"no-console": 0,
+				"unicorn/numeric-separators-style": 0
+			}
+		}
+	]
+}
