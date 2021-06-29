@@ -1,6 +1,6 @@
 {
   "name": "isomorphic-timers-promises",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "`timers/promises` for client and server.",
   "license": "MIT",
   "author": "Ivan Nikolić <niksy5@gmail.com> (http://ivannikolic.com)",
