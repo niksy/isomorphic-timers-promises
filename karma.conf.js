@@ -47,16 +47,6 @@ if (local) {
 				'os': 'Windows',
 				'os_version': '7'
 			},
-			'BS-Edge': {
-				'base': 'BrowserStack',
-				'project': 'isomorphic-timers-promises',
-				'build': 'Automated (Karma)',
-				'browser': 'Edge',
-				'browser_version': '15',
-				'name': 'Edge',
-				'os': 'Windows',
-				'os_version': '10'
-			},
 			'BS-Firefox': {
 				'base': 'BrowserStack',
 				'project': 'isomorphic-timers-promises',
@@ -66,9 +56,19 @@ if (local) {
 				'name': 'Firefox',
 				'os': 'Windows',
 				'os_version': '7'
+			},
+			'BS-IE': {
+				'base': 'BrowserStack',
+				'project': 'isomorphic-timers-promises',
+				'build': 'Automated (Karma)',
+				'browser': 'IE',
+				'browser_version': '11',
+				'name': 'IE',
+				'os': 'Windows',
+				'os_version': '7'
 			}
 		},
-		browsers: ['BS-Chrome', 'BS-Edge', 'BS-Firefox']
+		browsers: ['BS-Chrome', 'BS-Firefox', 'BS-IE']
 	};
 }
 

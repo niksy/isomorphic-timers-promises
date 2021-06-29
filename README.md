@@ -7,7 +7,7 @@
 for client and server.
 
 > The `timers/promises` API provides an alternative set of timer functions that
-> return Promise objects.
+> return `Promise` objects.
 
 ## Install
 
@@ -129,8 +129,9 @@ Returns: async iterator that generates values in an interval of `delay`.
 
 ## Browser support
 
-Tested in Chrome 72, Edge 15, Firefox 65 and should work in all modern browsers
-([support based on Browserslist configuration](https://browserslist.dev/?q=bGFzdCAzIG1ham9yIHZlcnNpb25zLCBzaW5jZSAyMDE5LCBlZGdlID49IDE1LCBub3QgaWUgPiAw)).
+Tested in Chrome 72, Firefox 65, Internet Explorer 11 and should work in all
+modern browsers
+([support based on Browserslist configuration](https://browserslist.dev/?q=bGFzdCAzIG1ham9yIHZlcnNpb25zLCBzaW5jZSAyMDE5LCBub3QgaWUgPD0gMTA%3D)).
 
 Assumes `Promise`, `AbortController` and `setImmediate` are polyfilled or
 available in global context.

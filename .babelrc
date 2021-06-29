@@ -1,6 +1,11 @@
 {
 	"presets": [["@babel/preset-env", { "modules": false, "loose": true }]],
-	"plugins": ["babel-plugin-native-error-extend"],
+	"plugins": [
+		"babel-plugin-native-error-extend",
+		"@babel/plugin-transform-member-expression-literals",
+		"@babel/plugin-transform-property-literals",
+		"@babel/plugin-transform-object-assign"
+	],
 	"env": {
 		"test": {
 			"presets": [
