@@ -127,11 +127,15 @@ Returns: async iterator that generates values in an interval of `delay`.
 | `options.ref`    | `boolean`     | `true`  | Set to `false` to indicate that the scheduled timeout between iterations should not require the event loop to remain active. Valid only for server environment. |
 | `options.signal` | `AbortSignal` |         | An optional `AbortSignal` that can be used to cancel the scheduled timeout between operations.                                                                  |
 
-## Browser support
+## Node and browser support
+
+Supports Node 10+.
 
 Tested in Chrome 72, Firefox 65, Internet Explorer 11 and should work in all
-modern browsers
-([support based on Browserslist configuration](https://browserslist.dev/?q=bGFzdCAzIG1ham9yIHZlcnNpb25zLCBzaW5jZSAyMDE5LCBub3QgaWUgPD0gMTA%3D)).
+modern browsers.
+
+Check
+[support based on Browserslist configuration](https://browserslist.dev/?q=bGFzdCAzIG1ham9yIHZlcnNpb25zLCBzaW5jZSAyMDE5LCBub3QgaWUgPD0gMTAsIG5vZGUgMTA%3D)).
 
 Assumes `Promise`, `AbortController` and `setImmediate` are polyfilled or
 available in global context.

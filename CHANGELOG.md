@@ -2,6 +2,10 @@
 
 ## [Unreleased][]
 
+### Added
+
+-   Configuration for Node support
+
 ## [1.0.0][] - 2021-06-29
 
 ### Added
