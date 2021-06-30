@@ -93,6 +93,18 @@ module.exports = {
 
 </details>
 
+### Usage in Node
+
+<details>
+	
+<summary>Show me</summary>
+
+Depending on your configuration you can alias `timers/promises` with packages
+like [`link-module-alias`](https://github.com/Rush/link-module-alias) or
+[`babel-plugin-module-resolver`](https://github.com/tleunen/babel-plugin-module-resolver).
+
+</details>
+
 ## API
 
 ### setTimeout([delay[, value[, options]]])
